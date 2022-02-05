@@ -13,3 +13,5 @@ a=7;
 var b;
 // Only change code below this line
 b = a;
+//Task5
+var a = 9;
