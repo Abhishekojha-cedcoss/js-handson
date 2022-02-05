@@ -140,3 +140,11 @@ const myStr = "My name is " + myName + " and I am well!";
 const someAdjective = "easy";
 let myStr = "Learning to code is ";
 myStr += someAdjective;
+
+//Task32
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
