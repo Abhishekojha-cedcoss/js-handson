@@ -7,7 +7,7 @@ var myName;
 // Setup
 var a;
 // Only change code below this line
-a=7;
+a = 7;
 //Task4
 // Setup
 var b;
@@ -16,8 +16,8 @@ b = a;
 //Task5
 var a = 9;
 //Task6
-var myFirstName="Abhishek";
-var myLastName="Ojha";
+var myFirstName = "Abhishek";
+var myLastName = "Ojha";
 //Task7
 // Only change code below this line
 var a = 5;
@@ -74,15 +74,15 @@ const product = 2.0 * 2.5;
 //Task19
 const quotient = 4.4 / 2.0; // Change this line
 //Task20
-const remainder = 11%3;
+const remainder = 11 % 3;
 //Task21
 let a = 3;
 let b = 17;
 let c = 12;
 
 // Only change code below this line
-a +=  12;
-b += 9 ;
+a += 12;
+b += 9;
 c += 7;
 
 //Task22
@@ -102,7 +102,7 @@ let c = 4.6;
 
 // Only change code below this line
 a *= 5;
-b *= 3 ;
+b *= 3;
 c *= 10;
 
 //Task24
@@ -116,7 +116,7 @@ b /= 4;
 c /= 11;
 
 //Task25
-const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+const myStr = 'I am a "double quoted" string inside "double quotes".'; // Change this line
 
 //Task26
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
@@ -161,7 +161,7 @@ firstLetterOfLastName = lastName[0]; // Change this line
 let myStr = "Jello World";
 
 // Only change code below this line
-myStr="Hello World"; // Change this line
+myStr = "Hello World"; // Change this line
 // Only change code above this line
 
 //Task35
@@ -174,13 +174,13 @@ const thirdLetterOfLastName = lastName[2]; // Change this line
 const lastName = "Lovelace";
 
 // Only change code below this line
-const lastLetterOfLastName = lastName[lastName.length-1]; // Change this line
+const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
 
 //Task37
 const lastName = "Lovelace";
 
 // Only change code below this line
-const secondToLastLetterOfLastName = lastName[lastName.length-2]; // Change this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
 //Task38\
 const myNoun = "dog";
 const myAdjective = "big";
@@ -188,13 +188,16 @@ const myVerb = "ran";
 const myAdverb = "quickly";
 
 // Only change code below this line
-const wordBlanks = myNoun+"," + myAdjective+"," + myVerb+"," + myAdverb ; // Change this line
+const wordBlanks = myNoun + "," + myAdjective + "," + myVerb + "," + myAdverb; // Change this line
 // Only change code above this line
 
 //Task39
-const myArray = ["Abhishek",290];
+const myArray = ["Abhishek", 290];
 //Task40
-const myArray = [["Bulls", 23], ["White Sox", 45]];
+const myArray = [
+  ["Bulls", 23],
+  ["White Sox", 45],
+];
 //Task41
 const myArray = [50, 60, 70];
 const myData = myArray[0];
@@ -202,48 +205,68 @@ const myData = myArray[0];
 const myArray = [18, 64, 99];
 
 // Only change code below this line
-myArray[0]=45;
+myArray[0] = 45;
 
 //Task43
 const myArray = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-    [[10, 11, 12], 13, 14],
-  ];
-  
-  const myData = myArray[2][1];
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myData = myArray[2][1];
 //Task44
-const myArray = [["John", 23], ["cat", 2]];
+const myArray = [
+  ["John", 23],
+  ["cat", 2],
+];
 
 // Only change code below this line
-myArray.push(["dog",3]);
+myArray.push(["dog", 3]);
 //Task 45
-const myArray = [["John", 23], ["cat", 2]];
+const myArray = [
+  ["John", 23],
+  ["cat", 2],
+];
 
 // Only change code below this line
 const removedFromMyArray = myArray.pop();
 //Task46
-const myArray = [["John", 23], ["dog", 3]];
+const myArray = [
+  ["John", 23],
+  ["dog", 3],
+];
 
 // Only change code below this line
 const removedFromMyArray = myArray.shift();
 
 //Task47
-const myArray = [["John", 23], ["dog", 3]];
+const myArray = [
+  ["John", 23],
+  ["dog", 3],
+];
 myArray.shift();
 
 // Only change code below this line
 myArray.unshift(["Paul", 35]);
 
 //Task48
-const myList = [["Chocolate Bar", 15],
-["Chocolate Bar", 15],
-["Chocolate Bar", 15],
-["Chocolate Bar", 15],
-["Chocolate Bar", 15]];
+const myList = [
+  ["Chocolate Bar", 15],
+  ["Chocolate Bar", 15],
+  ["Chocolate Bar", 15],
+  ["Chocolate Bar", 15],
+  ["Chocolate Bar", 15],
+];
 //Task49
-function reusableFunction(){
-    console.log("Hi World");
-  }
-  reusableFunction();
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction();
+//Task50
+function functionWithArgs(a, b) {
+  var sum = a + b;
+  console.log(sum);
+}
+functionWithArgs(2, 6);
