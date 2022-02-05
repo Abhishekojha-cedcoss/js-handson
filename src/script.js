@@ -761,7 +761,19 @@ cc("K");
 cc("A");
 //Task83
 const myDog = {
-    name: "Camper",
-    legs: 4,
-    tails: 1,
-    friends: ["everything!"]};
+  name: "Camper",
+  legs: 4,
+  tails: 1,
+  friends: ["everything!"],
+};
+//Task84
+// Setup
+const testObj = {
+  hat: "ballcap",
+  shirt: "jersey",
+  shoes: "cleats",
+};
+
+// Only change code below this line
+const hatValue = testObj.hat; // Change this line
+const shirtValue = testObj.shirt; // Change this line
