@@ -198,3 +198,8 @@ const myArray = [["Bulls", 23], ["White Sox", 45]];
 //Task41
 const myArray = [50, 60, 70];
 const myData = myArray[0];
+//Task42
+const myArray = [18, 64, 99];
+
+// Only change code below this line
+myArray[0]=45;
