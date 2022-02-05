@@ -801,19 +801,30 @@ const player = testObj[playerNumber]; // Change this line
 //Task87
 // Setup
 const myDog = {
-    "name": "Coder",
-    "legs": 4,
-    "tails": 1,
-    "friends": ["freeCodeCamp Campers"]
-  };
-  
-  // Only change code below this line
-  myDog["name"]= "Happy coder";
-  //Task89
-  const myDog = {
-    "name": "Happy Coder",
-    "legs": 4,
-    "tails": 1,
-    "friends": ["freeCodeCamp Campers"]
-  };
-  myDog.bark="woof";
+  name: "Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+};
+
+// Only change code below this line
+myDog["name"] = "Happy coder";
+//Task88
+const myDog = {
+  name: "Happy Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+};
+myDog.bark = "woof";
+//Task89
+// Setup
+const myDog = {
+  name: "Happy Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+  bark: "woof",
+};
+delete myDog.tail;
+// Only change code below this line
