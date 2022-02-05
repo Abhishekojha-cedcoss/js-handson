@@ -73,3 +73,5 @@ const myDecimal = 5.7;
 const product = 2.0 * 2.5;
 //Task19
 const quotient = 4.4 / 2.0; // Change this line
+//Task20
+const remainder = 11%3;
