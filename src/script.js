@@ -297,23 +297,39 @@ function fun2() {
 }
 //Task53
 function myLocalScope() {
-    // Only change code below this line
-    let myVar;
-    console.log('inside myLocalScope', myVar);
-  }
-  myLocalScope();
-  
-  // Run and check the console
-  // myVar is not defined outside of myLocalScope
-  console.log('outside myLocalScope', myVar);
-  //Task54
-  const outerWear = "T-Shirt";
+  // Only change code below this line
+  let myVar;
+  console.log("inside myLocalScope", myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log("outside myLocalScope", myVar);
+//Task54
+const outerWear = "T-Shirt";
 
 function myOutfit() {
   // Only change code below this line
-    let outerWear= "sweater";
+  let outerWear = "sweater";
   // Only change code above this line
   return outerWear;
 }
-
 myOutfit();
+//Task55
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive() {
+  sum += 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
