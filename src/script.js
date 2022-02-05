@@ -809,3 +809,11 @@ const myDog = {
   
   // Only change code below this line
   myDog["name"]= "Happy coder";
+  //Task89
+  const myDog = {
+    "name": "Happy Coder",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["freeCodeCamp Campers"]
+  };
+  myDog.bark="woof";
