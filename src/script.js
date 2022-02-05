@@ -270,3 +270,8 @@ function functionWithArgs(a, b) {
   console.log(sum);
 }
 functionWithArgs(2, 6);
+//Task51
+function timesFive(a){
+    return 5*a;
+  
+  }
