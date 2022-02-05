@@ -360,6 +360,14 @@ console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 //Task58
 function welcomeToBooleans() {
-    // Only change code below this line
-    return true; // Change this line
+  // Only change code below this line
+  return true; // Change this line
+}
+//Task59
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+  if (wasThatTrue) {
+    return "Yes, that was true";
   }
+  return "No, that was false";
+}
