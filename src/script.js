@@ -15,3 +15,6 @@ var b;
 b = a;
 //Task5
 var a = 9;
+//Task6
+var myFirstName="Abhishek";
+var myLastName="Ojha";
