@@ -28,3 +28,13 @@ var c = "I am a";
 a = a + 1;
 b = b + 5;
 c = c + " String!";
+//Task8
+// Variable declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Variable assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
