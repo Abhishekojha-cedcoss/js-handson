@@ -50,3 +50,5 @@ console.log(FCC, fact); // Change this line
 const sum = 10 + 10;
 //Task12
 const difference = 45 - 33;
+//Task13
+const product = 8 * 10;
