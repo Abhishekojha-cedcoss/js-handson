@@ -54,3 +54,8 @@ const difference = 45 - 33;
 const product = 8 * 10;
 //Task14
 const quotient = 66 / 33;
+//Task15
+let myVar = 87;
+
+// Only change code below this line
+myVar = ++myVar;
