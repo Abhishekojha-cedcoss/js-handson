@@ -242,3 +242,8 @@ const myList = [["Chocolate Bar", 15],
 ["Chocolate Bar", 15],
 ["Chocolate Bar", 15],
 ["Chocolate Bar", 15]];
+//Task49
+function reusableFunction(){
+    console.log("Hi World");
+  }
+  reusableFunction();
