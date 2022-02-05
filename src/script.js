@@ -759,3 +759,9 @@ cc(3);
 cc(7);
 cc("K");
 cc("A");
+//Task83
+const myDog = {
+    name: "Camper",
+    legs: 4,
+    tails: 1,
+    friends: ["everything!"]};
