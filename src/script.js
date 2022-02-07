@@ -847,28 +847,32 @@ phoneticLookup("charlie");
 
 //Task91
 const myMusic = [
-  { 
-    "artist": "Billy Joel",
-    "title": "Piano Man",
-    "release_year": 1973,
-    "formats": [
-      "CD",
-      "8T",
-      "LP"
-    ],
-    "gold": true
+  {
+    artist: "Billy Joel",
+    title: "Piano Man",
+    release_year: 1973,
+    formats: ["CD", "8T", "LP"],
+    gold: true,
   },
   {
-    "artist": "Arijit Singh",
-    "title": "Phirr",
-    "release_year": 2018,
-    "formats": [
-      "CD",
-      "8T",
-      "LP"
-    ],
-    "gold": true
-
-  }
-
+    artist: "Arijit Singh",
+    title: "Phirr",
+    release_year: 2018,
+    formats: ["CD", "8T", "LP"],
+    gold: true,
+  },
 ];
+//Task92
+const myStorage = {
+  car: {
+    inside: {
+      "glove box": "maps",
+      "passenger seat": "crumbs",
+    },
+    outside: {
+      trunk: "jack",
+    },
+  },
+};
+
+var gloveBoxContents = myStorage.car.inside["glove box"];
