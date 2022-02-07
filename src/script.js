@@ -1013,3 +1013,13 @@ while (a >= 0) {
 for(var a=1;a<=5;a++)
 {
   myArray.push(a);
+}
+//Task98
+  const myArray = [];
+for(var a=1;a<=5;a++)
+{
+  myArray.push(a);
+
+for (let i = 1; i < 10; i += 2) {
+  myArray.push(i);
+}
