@@ -929,3 +929,34 @@ function updateRecords(records, id, prop, value) {
   return records;
 }
 updateRecords(recordCollection, 5439, "artist", "ABBA");
+const myStorage = {
+    "car": {
+      "inside": {
+        "glove box": "maps",
+        "passenger seat": "crumbs"
+       },
+      "outside": {
+        "trunk": "jack"
+      }
+const myPlants = [
+    {
+      type: "flowers",
+      list: [
+        "rose",
+        "tulip",
+        "dandelion"
+      ]
+    },
+    {
+      type: "trees",
+      list: [
+        "fir",
+        "pine",
+        "birch"
+      ]
+    }
+  };
+  ];
+
+  const gloveBoxContents = myStorage.car.inside["glove box"]; 
+  const secondTree = myPlants[1].list[1]; 
