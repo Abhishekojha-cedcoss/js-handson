@@ -844,3 +844,31 @@ function phoneticLookup(val) {
   return lookup[val];
 }
 phoneticLookup("charlie");
+
+//Task91
+const myMusic = [
+  { 
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+  {
+    "artist": "Arijit Singh",
+    "title": "Phirr",
+    "release_year": 2018,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+
+  }
+
+];
