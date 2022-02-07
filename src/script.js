@@ -1004,3 +1004,12 @@ while (a >= 0) {
 }
 
 updateRecords(recordCollection, 5439, 'artist', 'ABBA'); 
+//Task97
+  const myArray = [];
+var a = 5
+while (a >= 0) {
+  myArray.push(a)
+  a--
+for(var a=1;a<=5;a++)
+{
+  myArray.push(a);
